@@ -1,0 +1,47 @@
+body {
+  background: red;
+}
+
+
+/* Nav_menu */
+
+header {
+  height: 60px;
+}
+
+.nav_menu ul li{
+  display: inline-block;
+  margin: 20px 10px 15px 10px;
+}
+
+.nav_menu {
+  text-align: right;
+}
+
+
+
+/* Footer */
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 120px 0 0 20px;
+    height: 200px;
+    background-color: #eeeeee;
+}
+
+
+
+.profile_image img {
+  width: 45%;
+  -webkit-transform: translateY(-100%) rotate(90deg); /* Safari */
+  -moz-transform: translateY(-100%) rotate(90deg); /* Firefox 3.6 Firefox 4 */
+  /*-moz-transform-origin: right top; */
+  -ms-transform: translateY(-100%) rotate(90deg); /* IE9 */
+  -o-transform: translateY(-100%) rotate(90deg); /* Opera */
+  -webkit-transform-origin: left bottom;
+  -moz-transform-origin: left bottom;
+  -ms-transform-origin: left bottom;
+  -o-transform-origin: left bottom;
+  transform-origin: left bottom;
+}
