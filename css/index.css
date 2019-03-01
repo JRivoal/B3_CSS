@@ -26,8 +26,16 @@
 
 
 
+
+
 /* Sections general */
 
 .section_general {
   margin: 100px 0 0 10px;
+}
+
+.section_general img {
+  max-width: 400px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }

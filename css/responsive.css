@@ -1,0 +1,162 @@
+/* Section 1*/
+
+.background_cover {
+  background-image: url('../images/lg-1280-720/Un-capucin-a-poitrine-jaune-est-ne-au-zoo-de-la-Palmyre.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background_cover h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.background_meaning {
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+
+
+/* Section 2*/
+
+.content_responsive_image {
+  max-width: 500px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  }
+
+.maxwidth_image {
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+}
+
+.content_responsive_image h1 {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.responsive_meaning {
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+
+/* Section 3*/
+
+.fit_responsive_div {
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.fit_responsive_div2 {
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.fit_responsive_div h1 {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.fit_responsive_div2 h1 {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.fit_image {
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  object-fit: cover;
+  max-height: 300px;
+}
+
+.fit_image2 {
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  object-fit: scale-down;
+  max-height: 300px;
+}
+
+.fit_images_section {
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+
+/* Section 4*/
+
+.content_picture_div {
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  }
+
+
+source {
+  width: 100%;
+}
+
+picture {
+  width: 100%;
+}
+
+picture img {
+  width: 100%;
+}
+
+.content_picture_div h1 {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.picture_section {
+  margin-top: 25px;
+  margin-bottom: 75px;
+}

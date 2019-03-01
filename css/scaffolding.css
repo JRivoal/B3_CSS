@@ -1,24 +1,54 @@
-body {
-  background: red;
-}
-
 
 /* Nav_menu */
-
 header {
-  height: 60px;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
 
 .nav_menu ul li{
   display: inline-block;
-  margin: 20px 10px 15px 10px;
+  margin: 20px 10px 15px 20px;
 }
 
 .nav_menu {
   text-align: right;
 }
 
+.navbar {
+  display: none!important;
+}
 
+.nav_menu ul li:first-child {
+  margin-right: 60px;
+}
+
+
+
+/* Images */
+
+img {
+  border-radius: 4px;
+}
+
+
+
+
+/* Buttons */
+ .btn-primary {
+   background-color: white!important;
+   border-color: black!important;
+ }
+
+.jumbotron a:hover {
+  background-color: black!important;
+  color: white!important;
+}
+
+
+ .section_general a:hover {
+   background-color: black!important;
+   color: white!important;
+ }
 
 /* Footer */
 

@@ -8,42 +8,145 @@
     <link rel="stylesheet" type="text/css" href="../css/scaffolding.css">
     <link rel="stylesheet" type="text/css" href="../css/typography.css">
     <link rel="stylesheet" type="text/css" href="../css/layout.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </head>
+
+
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><strong><a href="../index.html">Home</a></strong></li>
-          <li><a href="../01-mediaqueries/index.html">MediaQueries</a></li>
-          <li><a href="../02-flexbox/index.html">Flexbox</a></li>
-          <li><a href="../03-gridlayout/index.html">GridLayout</a></li>
-          <li><a href="index.html">Responsive Images</a></li>
-          <li><a href="../05-transforms/index.html">Transforms</a></li>
-        </ul>
-      </nav>
-    </header>
 
-    <footer>
-      <div class="profile_image">
-        <img src="images/jules.jpg" alt="profile_picture">
-      </div>
+    <div class="container">
 
-      <div class="adress_mail">
-        <p>Jules RIVOAL</p>
-        <a href="mailto:julesRIVOAL@example.com">jules.rivoal@example.com</a>
-      </div>
-      <div class="nav_footer">
-        <ul>
-          <li><strong><a href="../index.html">Home</a></strong></li>
-          <li><a href="../01-mediaqueries/index.html">MediaQueries</a></li>
-          <li><a href="../02-flexbox/index.html">Flexbox</a></li>
-          <li><a href="../03-gridlayout/index.html">GridLayout</a></li>
-          <li><a href="index.html">Responsive Images</a></li>
-          <li><a href="../05-transforms/index.html">Transforms</a></li>
-        </ul>
-      </div>
+<!-- HEADER -->
+        <header>
+          <nav class="nav_menu">
+            <ul>
+              <li><strong><a href="../index.html">Home</a></strong></li>
+              <li><a href="../01-mediaqueries/index.html">MediaQueries</a></li>
+              <li><a href="../02-flexbox/index.html">Flexbox</a></li>
+              <li><a href="../03-gridlayout/index.html">GridLayout</a></li>
+              <li><a href="index.html">Responsive Images</a></li>
+              <li><a href="../05-transforms/index.html">Transforms</a></li>
+            </ul>
+          </nav>
 
-    </footer>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Déplier
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../index.html">Home</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="index.html">MediaQueries</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../02-flexbox/index.html">Flexbox</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../03-gridlayout/index.html">GridLayout</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../04-responsivesimages/index.html">Responsive Images</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../05-transforms/index.html">Transforms</a>
+                    <div class="dropdown-divider"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Responsive</li>
+            </ol>
+          </nav>
+
+        </header>
+
+
+<!-- SECTIONS -->
+        <section class="background_meaning">
+          <h3>Background Responsive</h3>
+          <hr/>
+          <div class="background_cover">
+              <h1>Background</h1>
+          </div>
+        </section>
+
+        <section class="responsive_meaning">
+          <h3>Responsive image</h3>
+          <hr/>
+          <div class="content_responsive_image">
+              <img class="maxwidth_image" src="../images/lg-1280-720/b5279c68f4fd754dcaeef632dacfb462.jpg" alt="">
+              <h1>Responsive Image</h1>
+          </div>
+        </section>
+
+        <section class="fit_images_section">
+          <h3>Fit images</h3>
+          <hr/>
+          <div class="fit_responsive_div">
+              <img class="fit_image" src="../images/lg-1280-720/Uganda-Gorilla-Tours.jpg" alt="">
+              <h1>Object Fit 1st</h1>
+          </div>
+          <div class="fit_responsive_div2">
+              <img class="fit_image2" src="../images/lg-1280-720/p043lqmb.jpg" alt="">
+              <h1>Object Fit 2nd</h1>
+          </div>
+        </section>
+
+        <section class="picture_section">
+          <h3>Picture responsive</h3>
+          <hr/>
+          <div class="content_picture_div">
+            <picture>
+              <source srcset="../images/lg-1280-720/db0dac5d9dffa829c994e19e47466baf.jpg"
+                      media="(min-width: 800px)">
+              <img src="../images/lg-1280-720/01-snub-nosed-monkey.jpg" />
+            </picture>
+            <h1>Picture tag</h1>
+          </div>
+        </section>
+
+
+<!-- FOOTER -->
+          <div>
+            <footer class="row">
+              <div class="profile_image col-4">
+                <img src="../images/jules.jpg" alt="profile_picture">
+              </div>
+
+              <div class="adress_mail col-4">
+                <p>Jules RIVOAL</p>
+                <a href="mailto:julesRIVOAL@example.com">JR@example.com</a>
+              </div>
+              <div class="nav_footer col-4">
+                <ul>
+                  <li><strong><a href="../index.html">Home</a></strong></li>
+                  <li><a href="../01-mediaqueries/index.html">MediaQueries</a></li>
+                  <li><a href="../02-flexbox/index.html">Flexbox</a></li>
+                  <li><a href="../03-gridlayout/index.html">GridLayout</a></li>
+                  <li><a href="index.html">Responsive Images</a></li>
+                  <li><a href="../05-transforms/index.html">Transforms</a></li>
+                </ul>
+              </div>
+
+            </footer>
+          </div>
+
+
+
+    </div>
 
   </body>
 </html>

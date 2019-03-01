@@ -8,11 +8,12 @@
     <link rel="stylesheet" type="text/css" href="css/scaffolding.css">
     <link rel="stylesheet" type="text/css" href="css/typography.css">
     <link rel="stylesheet" type="text/css" href="css/layout.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  </head>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
   <body>
@@ -31,45 +32,100 @@
               <li><a href="05-transforms/index.html">Transforms</a></li>
             </ul>
           </nav>
+
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Déplier
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="index.html">Home</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="01-mediaqueries/index.html">MediaQueries</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="02-flexbox/index.html">Flexbox</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="03-gridlayout/index.html">GridLayout</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="04-responsivesimages/index.html">Responsive Images</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="05-transforms/index.html">Transforms</a>
+                    <div class="dropdown-divider"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+          </nav>
+
+
+
         </header>
 
-        <section class="hero">
-            <h1>Test</h1>
-        </section>
 
 
 <!-- SECTIONS -->
-        <section class="section_general mediaqueries_section">
+
+        <section class="hero">
+            <h1>Home Page</h1>
+        </section>
+
+        <div class="jumbotron">
+          <h1 class="display-4">CSS</h1>
+          <p class="lead">CSS is a language that describes the style of an HTML document.</p>
+          <hr class="my-4">
+          <p>CSS describes how HTML elements should be displayed.
+              This tutorial will teach you CSS from basic to advanced.</p>
+          <a class="btn btn-primary btn-lg" href="#start_content" role="button">Learn more</a>
+        </div>
+
+        <section class="section_general" id="start_content">
           <h3>Media Queries</h3>
-          <img src="images/test.png" alt="test_image">
+          <hr/>
+          <img src="images/media-queries-t1.png" alt="media_image">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           <a class="btn btn-primary btn-lg" href="01-mediaqueries/index.html"> En savoir plus</a>
         </section>
 
-        <section class="section_general mediaqueries_section">
-          <h3>Media Queries</h3>
-          <img src="images/test.png" alt="test_image">
+        <section class="section_general">
+          <h3>FlexBox</h3>
+          <hr/>
+          <img src="images/flex.jpg" alt="flex_image">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           <a class="btn btn-primary btn-lg" href="02-flexbox/index.html"> En savoir plus</a>
         </section>
 
-        <section class="section_general mediaqueries_section">
-          <h3>Media Queries</h3>
-          <img src="images/test.png" alt="test_image">
+        <section class="section_general">
+          <h3>Grid Layout</h3>
+          <hr/>
+          <img src="images/grid.jpg" alt="test_image">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           <a class="btn btn-primary btn-lg" href="03-gridlayout/index.html"> En savoir plus</a>
         </section>
 
-        <section class="section_general mediaqueries_section">
-          <h3>Media Queries</h3>
-          <img src="images/test.png" alt="test_image">
+        <section class="section_general">
+          <h3>Responsive</h3>
+          <hr/>
+          <img src="images/responsive.jpg" alt="test_image">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           <a class="btn btn-primary btn-lg" href="04-responsivesimages/index.html"> En savoir plus</a>
         </section>
 
-        <section class="section_general mediaqueries_section">
+        <section class="section_general">
           <h3>Media Queries</h3>
-          <img src="images/test.png" alt="test_image">
+          <hr/>
+          <img src="images/transform.png" alt="test_image">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           <a class="btn btn-primary btn-lg" href="05-transforms/index.html"> En savoir plus</a>
         </section>
@@ -84,7 +140,7 @@
 
               <div class="adress_mail col-4">
                 <p>Jules RIVOAL</p>
-                <a href="mailto:julesRIVOAL@example.com">jules.rivoal@example.com</a>
+                <a href="mailto:julesRIVOAL@example.com">JR@example.com</a>
               </div>
               <div class="nav_footer col-4">
                 <ul>

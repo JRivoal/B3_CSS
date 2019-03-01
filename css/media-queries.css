@@ -1,0 +1,88 @@
+.background_mediaqueries1 {
+  background-image: url('../images/lg-1280-720/inspired-2013-05-monkey-main.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.background_mediaqueries2 {
+  background-image: url('../images/lg-1280-720/p026105t-baby-monkey-images-5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.background_mediaqueries3 {
+  background-image: url('../images/lg-1280-720/Un-capucin-a-poitrine-jaune-est-ne-au-zoo-de-la-Palmyre.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.background_mediaqueries1 h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+
+.background_mediaqueries2 h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+
+.background_mediaqueries3 h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Media Queries */
+@media screen and (min-width: 900px) and (max-width: 1600px) {
+  .background_mediaqueries1 {
+    display:flex;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .background_mediaqueries2 {
+    display:flex;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+  .background_mediaqueries3 {
+    display:flex;
+  }
+}

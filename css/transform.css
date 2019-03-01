@@ -1,0 +1,98 @@
+/* Rotate */
+
+.rotate_div {
+  max-width: 800px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  }
+
+.rotate_image {
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  transform: rotate(0.5turn);
+}
+
+.rotate_div h1 {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.transform_rotate {
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+
+/* Scale */
+
+.scale_div {
+  max-width: 800px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  }
+
+.scale_image {
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  transform: scale(1.5, 0.8);
+}
+
+.scale_div h1 {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.transform_scale {
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+
+
+/* skew */
+
+.skew_div {
+  max-width: 800px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  }
+
+.skew_image {
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  transform: skew(10deg, 0deg);
+}
+
+.skew_div h1 {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.transform_skew {
+  margin-top: 25px;
+  margin-bottom: 100px;
+}

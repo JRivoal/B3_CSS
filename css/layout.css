@@ -1,0 +1,30 @@
+/* MediaQueries */
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  .nav_menu {
+    display:none;
+  }
+
+  .navbar-expand-lg {
+    display: inline-block!important;
+    width: 100%;
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1000px) {
+  .profile_image img {
+      width: 70%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 750px) {
+  .profile_image img {
+      width: 100%;
+    }
+
+@media screen and (min-width: 100px) and (max-width: 400px) {
+  .profile_image img {
+      display: none;
+    }
+}
