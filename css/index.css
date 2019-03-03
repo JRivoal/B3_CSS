@@ -25,7 +25,9 @@
 }
 
 
-
+.jumbotron {
+  border-radius: 0 0 5px 5px!important;
+}
 
 
 /* Sections general */
