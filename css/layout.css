@@ -15,16 +15,29 @@
 @media screen and (min-width: 750px) and (max-width: 1000px) {
   .profile_image img {
       width: 70%;
-    }
+  }
+
+  body {
+    background-color:   #ececec!important;
+  }
 }
 
 @media screen and (min-width: 400px) and (max-width: 750px) {
   .profile_image img {
       width: 100%;
-    }
+  }
+
+  body {
+    background-color:   #d5d5d5!important;
+  }
+}
 
 @media screen and (min-width: 100px) and (max-width: 400px) {
   .profile_image img {
-      display: none;
-    }
+      display: 100%;
+  }
+
+  body {
+    background-color:   #b9b9b9!important;
+  }
 }

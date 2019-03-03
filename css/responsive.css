@@ -11,9 +11,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-attachment: fixed;
 }
 
-.background_cover h1 {
+.background_cover h3 {
     color: #fff;
     text-transform: uppercase;
     font-size: 25px;
@@ -25,7 +26,7 @@
 
 .background_meaning {
   margin-top: 25px;
-  margin-bottom: 75px;
+  margin-bottom: 100px;
 }
 
 
@@ -46,7 +47,7 @@
   display: flex;
 }
 
-.content_responsive_image h1 {
+.content_responsive_image h3 {
     color: #000000;
     text-transform: uppercase;
     font-size: 25px;
@@ -58,7 +59,7 @@
 
 .responsive_meaning {
   margin-top: 25px;
-  margin-bottom: 75px;
+  margin-bottom: 100px;
 }
 
 
@@ -78,7 +79,7 @@
   text-align: center;
 }
 
-.fit_responsive_div h1 {
+.fit_responsive_div h3 {
     color: #000000;
     text-transform: uppercase;
     font-size: 25px;
@@ -89,7 +90,7 @@
     margin-bottom: 30px;
 }
 
-.fit_responsive_div2 h1 {
+.fit_responsive_div2 h3 {
     color: #000000;
     text-transform: uppercase;
     font-size: 25px;
@@ -120,7 +121,7 @@
 
 .fit_images_section {
   margin-top: 25px;
-  margin-bottom: 75px;
+  margin-bottom: 100px;
 }
 
 
@@ -146,7 +147,7 @@ picture img {
   width: 100%;
 }
 
-.content_picture_div h1 {
+.content_picture_div h3 {
     color: #000000;
     text-transform: uppercase;
     font-size: 25px;
@@ -158,5 +159,5 @@ picture img {
 
 .picture_section {
   margin-top: 25px;
-  margin-bottom: 75px;
+  margin-bottom: 100px;
 }

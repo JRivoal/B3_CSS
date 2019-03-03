@@ -21,3 +21,28 @@ a {
   font-family: 'Raleway', sans-serif;
   color: black!important;
 }
+
+
+@media screen and (min-width: 450px) and (max-width: 1250px) {
+  p {
+        font-size: 120%;
+  }
+
+
+  :not(footer li a) {
+    font-size: 120%;
+  }
+
+}
+
+@media screen and (min-width: 100px) and (max-width: 449px) {
+  p {
+        font-size: 140%;
+  }
+
+
+  :not(footer li a) {
+    font-size: 140%;
+  }
+
+}
